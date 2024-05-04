@@ -1,19 +1,15 @@
 package art.dborg.library_management.v1.api;
 
-import art.dborg.library_management.v1.business.concretes.BookBorrowingServices;
+import art.dborg.library_management.v1.business.abstracts.BookBorrowingServices;
 import art.dborg.library_management.v1.core.config.modelMapper.ModelMapperService;
 import art.dborg.library_management.v1.core.resutl.Result;
 import art.dborg.library_management.v1.core.resutl.ResultData;
 import art.dborg.library_management.v1.core.utilities.ResultHelper;
 import art.dborg.library_management.v1.dto.request.book.BookSaveRequest;
 import art.dborg.library_management.v1.dto.request.bookBorrowing.BookBorrowingUpdateRequest;
-import art.dborg.library_management.v1.dto.request.category.CategorySaveRequest;
-import art.dborg.library_management.v1.dto.request.category.CategoryUpdateRequest;
 import art.dborg.library_management.v1.dto.response.CursorResponse;
 import art.dborg.library_management.v1.dto.response.bookBorrowing.BookBorrowingResponse;
-import art.dborg.library_management.v1.dto.response.category.CategoryResponse;
 import art.dborg.library_management.v1.entities.BookBorrowing;
-import art.dborg.library_management.v1.entities.Category;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

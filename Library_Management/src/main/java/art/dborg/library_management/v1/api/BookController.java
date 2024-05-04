@@ -1,19 +1,14 @@
 package art.dborg.library_management.v1.api;
 
-import art.dborg.library_management.v1.business.concretes.AuthorServices;
-import art.dborg.library_management.v1.business.concretes.BookServices;
+import art.dborg.library_management.v1.business.abstracts.BookServices;
 import art.dborg.library_management.v1.core.config.modelMapper.ModelMapperService;
 import art.dborg.library_management.v1.core.resutl.Result;
 import art.dborg.library_management.v1.core.resutl.ResultData;
 import art.dborg.library_management.v1.core.utilities.ResultHelper;
-import art.dborg.library_management.v1.dto.request.author.AuthorSaveRequest;
-import art.dborg.library_management.v1.dto.request.author.AuthorUpdateRequest;
 import art.dborg.library_management.v1.dto.request.book.BookSaveRequest;
 import art.dborg.library_management.v1.dto.request.book.BookUpdateRequest;
 import art.dborg.library_management.v1.dto.response.CursorResponse;
-import art.dborg.library_management.v1.dto.response.author.AuthorResponse;
 import art.dborg.library_management.v1.dto.response.book.BookResponse;
-import art.dborg.library_management.v1.entities.Author;
 import art.dborg.library_management.v1.entities.Book;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

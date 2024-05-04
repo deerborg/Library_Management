@@ -1,7 +1,6 @@
 package art.dborg.library_management.v1.api;
 
-import art.dborg.library_management.v1.business.abstracts.AuthorManager;
-import art.dborg.library_management.v1.business.concretes.AuthorServices;
+import art.dborg.library_management.v1.business.abstracts.AuthorServices;
 import art.dborg.library_management.v1.core.config.modelMapper.ModelMapperService;
 import art.dborg.library_management.v1.core.resutl.Result;
 import art.dborg.library_management.v1.core.resutl.ResultData;

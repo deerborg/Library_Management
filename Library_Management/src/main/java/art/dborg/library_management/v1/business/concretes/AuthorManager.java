@@ -1,6 +1,6 @@
-package art.dborg.library_management.v1.business.abstracts;
+package art.dborg.library_management.v1.business.concretes;
 
-import art.dborg.library_management.v1.business.concretes.AuthorServices;
+import art.dborg.library_management.v1.business.abstracts.AuthorServices;
 import art.dborg.library_management.v1.core.expection.NotFoundException;
 import art.dborg.library_management.v1.core.utilities.Message;
 import art.dborg.library_management.v1.dao.AuthorRepository;
@@ -8,7 +8,6 @@ import art.dborg.library_management.v1.entities.Author;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 @Service

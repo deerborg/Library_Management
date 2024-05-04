@@ -1,6 +1,6 @@
-package art.dborg.library_management.v1.business.abstracts;
+package art.dborg.library_management.v1.business.concretes;
 
-import art.dborg.library_management.v1.business.concretes.CategoryServices;
+import art.dborg.library_management.v1.business.abstracts.CategoryServices;
 import art.dborg.library_management.v1.core.expection.NotFoundException;
 import art.dborg.library_management.v1.core.utilities.Message;
 import art.dborg.library_management.v1.dao.CategoryRepository;

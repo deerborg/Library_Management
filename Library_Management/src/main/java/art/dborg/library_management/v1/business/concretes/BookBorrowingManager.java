@@ -1,6 +1,6 @@
-package art.dborg.library_management.v1.business.abstracts;
+package art.dborg.library_management.v1.business.concretes;
 
-import art.dborg.library_management.v1.business.concretes.BookBorrowingServices;
+import art.dborg.library_management.v1.business.abstracts.BookBorrowingServices;
 import art.dborg.library_management.v1.core.expection.NotFoundException;
 import art.dborg.library_management.v1.core.utilities.Message;
 import art.dborg.library_management.v1.dao.BookBorrowingRepository;

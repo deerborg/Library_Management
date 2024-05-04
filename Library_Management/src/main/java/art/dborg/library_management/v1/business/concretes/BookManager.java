@@ -1,6 +1,6 @@
-package art.dborg.library_management.v1.business.abstracts;
+package art.dborg.library_management.v1.business.concretes;
 
-import art.dborg.library_management.v1.business.concretes.BookServices;
+import art.dborg.library_management.v1.business.abstracts.BookServices;
 import art.dborg.library_management.v1.dao.BookRepository;
 import art.dborg.library_management.v1.entities.Book;
 import lombok.RequiredArgsConstructor;
